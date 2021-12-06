@@ -1,0 +1,43 @@
+1.List 5 difference javascript v Nodejs
+#javascript
+* javascript can only be run in the browsers.
+* It is basically used on the client side
+* javascript is used in frontend development.
+* Javascript is capable enough to add HTML and play with the DOM. 
+
+
+#Node js
+* We can run Javascript outside the browser with the help of NodeJS.
+* It is mostly used on the server side.
+* Nodejs is used in server-side development.
+* Nodejs does not have capability to add HTML tags.
+
+2.List 5 difference between Browser JS(console) v Nodejs
+
+#Browser JS(console)
+* Window is a predefined global object which has functions and attributes
+   that have to deal with window.
+* location is another predefined object in browsers 
+   that has all the information about the url we have loaded.
+* Document: which is also another predefined global variable in browsers
+   has the html which is rendered.
+* Browsers may have an object named global but it will be the exact one as window.
+
+#Node js
+* Node does not have a predefined window object cause it does not have a window to draw anything.
+* location object is related to a particular url that means it is for page specific.
+  So node doesnott require that.
+* Ofcourse Node does not have Document object also cause it never have to render anything in a page.
+* Node has Global which is a predefined global object. 
+  It contains several functions that are not available in browsers  
+
+3.Execute the below code and write your description in txt file
+a. typeof(1)=>Number type
+b. typeof(1.1)=>Number type
+c. typeof('1.1')=>s\String type
+d. typeof(true)=>Boolean type
+e. typeof(null)=>Object type
+f. typeof(undefined)=>Undefined type
+g. typeof([])=>object type
+h. typeof({})=>object type
+i. typeof(NaN)=>Number type
